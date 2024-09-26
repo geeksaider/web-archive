@@ -1,0 +1,40 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin:40px;
+    text-align: center;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+aside.about{
+    text-align:right
+}
+aside.course{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.create-line{
+ border-top: 3px rgba(128, 128, 128, 0.305) solid;
+ margin-bottom:20px
+}
+
+.about_img{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bauman{
+    border: 2px black solid;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: blue;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональная форма </title>
+    <link href="forms.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Форма регестрации</h1>
+        <hr>   
+    </header>
+    <div class="div_for_form">
+    <form action="mailto:geeksaider@gmail.com" method="post">
+        <fieldset>
+            <legend>Идентификационные данные</legend>
+            <label for="login">Логин</label><input type="text" name="login" id="login"><br>
+            <label for="password">Пароль</label><input type="password" name="password" id="password"><br>
+            <label for="last_password">Подтвердите пароль</label><input type="password" name="password_repeat" id="password_repeat"><br>
+        </fieldset>
+        <div class="about_source">
+        <label for="source">Источник информации о данном сайте</label>
+        <select id="source">
+            <option>
+                Советы друзей, знакомых
+            </option>
+            <option>
+                Реклама
+            </option>
+            <option>
+                Случайно
+            </option>
+        </select><br>
+        </div>
+
+        <label for="your_mind">Ваше мнение о компании:</label><br>
+        <textarea id="your_mind" rows="3" cols="40"  placeholder="Писать сюда!"></textarea><br>
+
+        <div class="letter">
+        <input type="checkbox" id="newsletter"><label for="newsletter"> Подписаться на рассылку?</label>
+        </div>
+
+        <div class="button">
+            <input class="btn" type="submit" value="Регестрация">
+            <input class="btn" type="reset" value="Отменить">
+            <a class="btn" href="../index.html">Назад</a>
+        </div>
+
+    </form>
+    </div>
+</body>
+</html>

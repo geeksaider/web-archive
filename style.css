@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header{
+    display:flex;
+    background-color: #cffafe;
+    text-align: center;
+    flex-direction:column;
+}
+h1{
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+h2{
+    margin-top:10px;
+    font-weight: normal;
+}
+
+hr{
+    margin-top: 0;
+}
+
+li{
+    margin-bottom:10px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+}
+a:hover{
+    transform: scale(2);
+    color: blue;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 200px;
+    margin-right: 50px;
+}
+

@@ -1,0 +1,12 @@
+body{
+    font-family: "Roboto Slab", serif;
+}
+
+header{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}

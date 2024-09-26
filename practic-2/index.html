@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            olegptg: "#D2E6E4",
+                            romabut: "#0B7077",
+                        },
+                    },
+                },
+            };
+        </script>
+        <title>Document</title>
+    </head>
+
+    <body class="bg-stone-100">
+        <div class="bg-olegptg rounded-b-[3rem] relative">
+            <img
+                src="assets/line-test.svg"
+                alt="Линии"
+                class="absolute left-[20%]"
+            />
+            <header
+                class="flex justify-between py-10 z-10 relative items-center max-w-[1240px] mx-auto"
+            >
+                <div>
+                    <img src="./assets/header-logo.svg" />
+                </div>
+                <div class="flex gap-20 text-xl items-center">
+                    <a href="" class="hover:text-orange-500">Home</a>
+                    <a href="" class="hover:text-orange-500">Careers</a>
+                    <a href="" class="hover:text-orange-500">Blog</a>
+                    <a href="" class="hover:text-orange-500">About Us</a>
+                </div>
+                <div class="flex justify-between gap-10">
+                    <button
+                        class="uppercase rounded-xl px-10 py-5 bg-white text-emerald-700"
+                    >
+                        log in
+                    </button>
+                    <button
+                        class="uppercase rounded-xl px-10 py-5 bg-emerald-800 text-white"
+                    >
+                        sign up
+                    </button>
+                </div>
+            </header>
+            <section class="flex justify-between max-w-[1240px] mx-auto">
+                <section class="flex flex-col gap-6 items-start pt-14">
+                    <span class="bg-white rounded-lg px-4 py-1 text-2xl"
+                        >Never stop learning</span
+                    >
+                    <h1
+                        class="text-emerald-800 font-bold text-6xl leading-tight tracking-wide"
+                    >
+                        Grow up yours skills by<br />
+                        onnline courses with<br />
+                        Onlearning
+                    </h1>
+                    <div class="flex gap-2">
+                        <button
+                            class="uppercase bg-orange-500 text-white text-lg py-4 px-6 rounded-xl"
+                        >
+                            explore patch
+                        </button>
+                        <section class="flex items-center -space-x-3">
+                            <div
+                                class="size-14 border-2 border-emerald-100 rounded-full bg-slate-600"
+                            ></div>
+                            <div
+                                class="size-14 border-2 border-emerald-100 rounded-full bg-slate-600"
+                            ></div>
+                            <div
+                                class="size-14 border-2 border-emerald-100 rounded-full bg-slate-600"
+                            ></div>
+                        </section>
+                        <section class="flex flex-col py-2">
+                            <div class="flex">
+                                <img src="assets/star.svg" alt="Star" />
+                                <img src="assets/star.svg" alt="Star" />
+                                <img src="assets/star.svg" alt="Star" />
+                                <img src="assets/star.svg" alt="Star" />
+                                <img src="assets/star.svg" alt="Star" />
+                            </div>
+                            <span class="text-xs text-black font-medium"
+                                >(10k+ Reviews)</span
+                            >
+                        </section>
+                    </div>
+                </section>
+                <section class="relative">
+                    <img src="assets/man.png" alt="Man" />
+                    <div
+                        class="absolute bottom-48 -left-32 bg-white/50 px-8 py-5 rounded-2xl backdrop-blur-md flex gap-8 shadow-md"
+                    >
+                        <img src="assets/man-callendar.svg" alt="" />
+                        <section>
+                            <h4 class="font-medium text-2xl">250k</h4>
+                            <span class="text-xl">Assisted Student</span>
+                        </section>
+                    </div>
+                    <img
+                        src="assets/man-static.svg"
+                        alt="Static"
+                        class="absolute top-40 -right-4"
+                    />
+                </section>
+            </section>
+            <div
+                class="flex justify-center items-center absolute bg-olegptg -bottom-[9rem] right-[calc(50%-9rem)] size-72 rounded-full"
+            >
+                <div
+                    class="flex items-center justify-center bg-emerald-950 size-52 rounded-full bg-[url(&quot;./assets/play-header.svg&quot;)] bg-center bg-no-repeat"
+                >
+                    <img
+                        src="assets/text-bottom-man.svg"
+                        alt="Text"
+                        class="animate-[spin_10s_linear_infinite;]"
+                    />
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="max-w-[1240px] mx-auto mb-28">
+                <section
+                    class="flex justify-center flex-col items-center pt-52 gap-12"
+                >
+                    <h1
+                        class="text-orange-400 text-5xl font-bold relative mb-2"
+                    >
+                        Popular Courses
+                        <img
+                            src="assets/courses-line.svg"
+                            alt="Линия"
+                            class="absolute -right-16 -bottom-6"
+                        />
+                    </h1>
+                    <div class="flex gap-5">
+                        <button
+                            class="border-black border rounded-md py-2 px-6 text-xs hover:text-white hover:bg-emerald-800 hover:border-emerald-700 transition-colors"
+                        >
+                            All programme
+                        </button>
+                        <button
+                            class="border-black border rounded-md py-2 px-6 text-xs hover:text-white hover:bg-emerald-800 hover:border-emerald-700"
+                        >
+                            Ui/Ux Design
+                        </button>
+                        <button
+                            class="border-black border rounded-md py-2 px-6 text-xs hover:text-white hover:bg-emerald-800 hover:border-emerald-700"
+                        >
+                            Program Design
+                        </button>
+                        <button
+                            class="border-black border rounded-md py-2 px-6 text-xs hover:text-white hover:bg-emerald-800 hover:border-emerald-700"
+                        >
+                            Program Design
+                        </button>
+                        <button
+                            class="border-black border rounded-md py-2 px-6 text-xs hover:text-white hover:bg-emerald-800 hover:border-emerald-700"
+                        >
+                            Program Design
+                        </button>
+                        <button
+                            class="border-black border rounded-md py-2 px-6 text-xs hover:text-white hover:bg-emerald-800 hover:border-emerald-700"
+                        >
+                            Program Design
+                        </button>
+                    </div>
+                    <div class="flex justify-between gap-4">
+                        <div
+                            class="flex flex-col mt-4 bg-white rounded-2xl overflow-clip"
+                        >
+                            <img src="assets/woman_static.png" alt="Женщина" />
+                            <section
+                                class="relative px-4 flex flex-col gap-2 pb-4"
+                            >
+                                <div
+                                    class="flex justify-center absolute -top-3 left-0 right-0"
+                                >
+                                    <section
+                                        class="flex bg-stone-100 rounded-full items-center px-2 py-1"
+                                    >
+                                        <div
+                                            class="flex items-center -space-x-3"
+                                        >
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                        </div>
+                                        <p>+ 40 students</p>
+                                    </section>
+                                </div>
+                                <p class="text-sm text-stone-500 pt-8 pb-2">
+                                    1 - 28 July 2022
+                                </p>
+                                <h3 class="text-lg font-bold text-emerald-800">
+                                    Product Management Basic - Course
+                                </h3>
+                                <p class="text-xs leading-relaxed">
+                                    Product Management Masterclass, you will
+                                    learn with Sarah Johnson - Head of Product
+                                    Customer Platform Gojek Indonesia.
+                                </p>
+                                <section
+                                    class="flex justify-between pt-6 items-center"
+                                >
+                                    <div class="flex gap-2">
+                                        <p
+                                            class="text-xl font-bold text-orange-400"
+                                        >
+                                            $ 380
+                                        </p>
+                                        <p
+                                            class="line-through text-sm text-stone-400"
+                                        >
+                                            $ 500
+                                        </p>
+                                    </div>
+                                    <a
+                                        href=""
+                                        class="rounded-md bg-emerald-800 text-sm text-white py-2 px-5 hover:bg-emerald-900"
+                                        >Enroll now</a
+                                    >
+                                </section>
+                            </section>
+                        </div>
+                        <div
+                            class="flex flex-col mt-4 bg-white rounded-2xl overflow-clip"
+                        >
+                            <img src="assets/woman_static.png" alt="Женщина" />
+                            <section
+                                class="relative px-4 flex flex-col gap-2 pb-4"
+                            >
+                                <div
+                                    class="flex justify-center absolute -top-3 left-0 right-0"
+                                >
+                                    <section
+                                        class="flex bg-stone-100 rounded-full items-center px-2 py-1"
+                                    >
+                                        <div
+                                            class="flex items-center -space-x-3"
+                                        >
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                        </div>
+                                        <p>+ 40 students</p>
+                                    </section>
+                                </div>
+                                <p class="text-sm text-stone-500 pt-8 pb-2">
+                                    1 - 28 July 2022
+                                </p>
+                                <h3 class="text-lg font-bold text-emerald-800">
+                                    Product Management Basic - Course
+                                </h3>
+                                <p class="text-xs leading-relaxed">
+                                    Product Management Masterclass, you will
+                                    learn with Sarah Johnson - Head of Product
+                                    Customer Platform Gojek Indonesia.
+                                </p>
+                                <section
+                                    class="flex justify-between pt-6 items-center"
+                                >
+                                    <div class="flex gap-2">
+                                        <p
+                                            class="text-xl font-bold text-orange-400"
+                                        >
+                                            $ 380
+                                        </p>
+                                        <p
+                                            class="line-through text-sm text-stone-400"
+                                        >
+                                            $ 500
+                                        </p>
+                                    </div>
+                                    <a
+                                        href=""
+                                        class="rounded-md bg-emerald-800 text-sm text-white py-2 px-5 hover:bg-emerald-900"
+                                        >Enroll now</a
+                                    >
+                                </section>
+                            </section>
+                        </div>
+                        <div
+                            class="flex flex-col mt-4 bg-white rounded-2xl overflow-clip"
+                        >
+                            <img src="assets/woman_static.png" alt="Женщина" />
+                            <section
+                                class="relative px-4 flex flex-col gap-2 pb-4"
+                            >
+                                <div
+                                    class="flex justify-center absolute -top-3 left-0 right-0"
+                                >
+                                    <section
+                                        class="flex bg-stone-100 rounded-full items-center px-2 py-1"
+                                    >
+                                        <div
+                                            class="flex items-center -space-x-3"
+                                        >
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                        </div>
+                                        <p>+ 40 students</p>
+                                    </section>
+                                </div>
+                                <p class="text-sm text-stone-500 pt-8 pb-2">
+                                    1 - 28 July 2022
+                                </p>
+                                <h3 class="text-lg font-bold text-emerald-800">
+                                    Product Management Basic - Course
+                                </h3>
+                                <p class="text-xs leading-relaxed">
+                                    Product Management Masterclass, you will
+                                    learn with Sarah Johnson - Head of Product
+                                    Customer Platform Gojek Indonesia.
+                                </p>
+                                <section
+                                    class="flex justify-between pt-6 items-center"
+                                >
+                                    <div class="flex gap-2">
+                                        <p
+                                            class="text-xl font-bold text-orange-400"
+                                        >
+                                            $ 380
+                                        </p>
+                                        <p
+                                            class="line-through text-sm text-stone-400"
+                                        >
+                                            $ 500
+                                        </p>
+                                    </div>
+                                    <a
+                                        href=""
+                                        class="rounded-md bg-emerald-800 text-sm text-white py-2 px-5 hover:bg-emerald-900"
+                                        >Enroll now</a
+                                    >
+                                </section>
+                            </section>
+                        </div>
+                        <div
+                            class="flex flex-col mt-4 bg-white rounded-2xl overflow-clip"
+                        >
+                            <img src="assets/woman_static.png" alt="Женщина" />
+                            <section
+                                class="relative px-4 flex flex-col gap-2 pb-4"
+                            >
+                                <div
+                                    class="flex justify-center absolute -top-3 left-0 right-0"
+                                >
+                                    <section
+                                        class="flex bg-stone-100 rounded-full items-center px-2 py-1"
+                                    >
+                                        <div
+                                            class="flex items-center -space-x-3"
+                                        >
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                            <div
+                                                class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                            ></div>
+                                        </div>
+                                        <p>+ 40 students</p>
+                                    </section>
+                                </div>
+                                <p class="text-sm text-stone-500 pt-8 pb-2">
+                                    1 - 28 July 2022
+                                </p>
+                                <h3 class="text-lg font-bold text-emerald-800">
+                                    Product Management Basic - Course
+                                </h3>
+                                <p class="text-xs leading-relaxed">
+                                    Product Management Masterclass, you will
+                                    learn with Sarah Johnson - Head of Product
+                                    Customer Platform Gojek Indonesia.
+                                </p>
+                                <section
+                                    class="flex justify-between pt-6 items-center"
+                                >
+                                    <div class="flex gap-2">
+                                        <p
+                                            class="text-xl font-bold text-orange-400"
+                                        >
+                                            $ 380
+                                        </p>
+                                        <p
+                                            class="line-through text-sm text-stone-400"
+                                        >
+                                            $ 500
+                                        </p>
+                                    </div>
+                                    <a
+                                        href=""
+                                        class="rounded-md bg-emerald-800 text-sm text-white py-2 px-5 hover:bg-emerald-900"
+                                        >Enroll now</a
+                                    >
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <section class="flex flex-col items-center mt-28 mb-20 gap-12">
+                    <h1
+                        class="relative text-5xl text-emerald-800 font-bold mt-14"
+                    >
+                        Courses Category
+                        <img
+                            src="assets/line-category.svg"
+                            alt=""
+                            class="absolute -right-16 -bottom-6"
+                        />
+                    </h1>
+                    <p class="text-lg text-stone-400 text-center">
+                        Onlearing is one powerful online software suite that
+                        combines all the tools<br />
+                        needed to run a successful school or office.
+                    </p>
+                    <div class="flex justify-between w-full">
+                        <div
+                            class="flex flex-col rounded-2xl items-center gap-8 px-6 py-6 hover:bg-white"
+                        >
+                            <div class="flex flex-col items-center">
+                                <img
+                                    src="assets/lipstick.png"
+                                    alt="Губная помада"
+                                    class="size-12"
+                                />
+                                <h1
+                                    class="font-medium text-emerald-800 text-3xl pt-4"
+                                >
+                                    Beauty
+                                </h1>
+                            </div>
+                            <p
+                                class="text-center text-md font-normal text-stone-400"
+                            >
+                                One powerful online software<br />
+                                suite that combines
+                            </p>
+                            <button
+                                class="text-lg bg-white rounded-2xl min-w-36 px-8 py-2 group hover:text-white hover:bg-orange-500"
+                            >
+                                <span class="group-hover:hidden">more</span>
+                                <span class="hidden group-hover:inline"
+                                    >Explore Courses</span
+                                >
+                            </button>
+                        </div>
+                        <div
+                            class="flex flex-col rounded-2xl items-center gap-8 px-6 py-6 hover:bg-white"
+                        >
+                            <div class="flex flex-col items-center">
+                                <img
+                                    src="assets/lipstick.png"
+                                    alt="Губная помада"
+                                    class="size-12"
+                                />
+                                <h1
+                                    class="font-medium text-emerald-800 text-3xl pt-4"
+                                >
+                                    Beauty
+                                </h1>
+                            </div>
+                            <p
+                                class="text-center text-md font-normal text-stone-400"
+                            >
+                                One powerful online software<br />
+                                suite that combines
+                            </p>
+                            <button
+                                class="text-lg bg-white rounded-2xl min-w-36 px-8 py-2 group hover:text-white hover:bg-orange-500"
+                            >
+                                <span class="group-hover:hidden">more</span>
+                                <span class="hidden group-hover:inline"
+                                    >Explore Courses</span
+                                >
+                            </button>
+                        </div>
+                        <div
+                            class="flex flex-col rounded-2xl items-center gap-8 px-6 py-6 hover:bg-white"
+                        >
+                            <div class="flex flex-col items-center">
+                                <img
+                                    src="assets/lipstick.png"
+                                    alt="Губная помада"
+                                    class="size-12"
+                                />
+                                <h1
+                                    class="font-medium text-emerald-800 text-3xl pt-4"
+                                >
+                                    Beauty
+                                </h1>
+                            </div>
+                            <p
+                                class="text-center text-md font-normal text-stone-400"
+                            >
+                                One powerful online software<br />
+                                suite that combines
+                            </p>
+                            <button
+                                class="text-lg bg-white rounded-2xl min-w-36 px-8 py-2 group hover:text-white hover:bg-orange-500"
+                            >
+                                <span class="group-hover:hidden">more</span>
+                                <span class="hidden group-hover:inline"
+                                    >Explore Courses</span
+                                >
+                            </button>
+                        </div>
+                        <div
+                            class="flex flex-col rounded-2xl items-center gap-8 px-6 py-6 hover:bg-white"
+                        >
+                            <div class="flex flex-col items-center">
+                                <img
+                                    src="assets/lipstick.png"
+                                    alt="Губная помада"
+                                    class="size-12"
+                                />
+                                <h1
+                                    class="font-medium text-emerald-800 text-3xl pt-4"
+                                >
+                                    Beauty
+                                </h1>
+                            </div>
+                            <p
+                                class="text-center text-md font-normal text-stone-400"
+                            >
+                                One powerful online software<br />
+                                suite that combines
+                            </p>
+                            <button
+                                class="text-lg bg-white rounded-2xl min-w-36 px-8 py-2 group hover:text-white hover:bg-orange-500"
+                            >
+                                <span class="group-hover:hidden">more</span>
+                                <span class="hidden group-hover:inline"
+                                    >Explore Courses</span
+                                >
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <div class="flex justify-center">
+                    <button
+                        class="text-center font-semiblod text-lg text-emerald-800 font-semibold py-3 px-16 rounded-xl border-2 border-emerald-800 hover:bg-emerald-800 hover:text-white"
+                    >
+                        view all
+                    </button>
+                </div>
+                <section class="my-28 flex justify-between gap-9">
+                    <div class="flex flex-col basis-1/2">
+                        <h2
+                            class="text-lg w-28 text-emerald-800 font-medium py-2 px-6 bg-stone-200 rounded-xl opacity-70"
+                        >
+                            Benefits
+                        </h2>
+                        <h1
+                            class="font-bold text-5xl text-emerald-800 mt-6 mb-12"
+                        >
+                            Get Student ID card
+                        </h1>
+                        <div class="flex flex-col gap-11">
+                            <div class="flex items-center gap-8">
+                                <div
+                                    class="size-[60px] rounded-full shadow-lg flex justify-center items-center"
+                                >
+                                    <img src="assets/benefits_lg1.svg" alt="" />
+                                </div>
+                                <p class="text-stone-600 text-lg">
+                                    Teachers don’t get lost in the grid view and
+                                    have a dedicated Podium space.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-8">
+                                <div
+                                    class="size-[60px] rounded-full shadow-lg flex justify-center items-center"
+                                >
+                                    <img src="assets/benefits_lg2.svg" alt="" />
+                                </div>
+                                <p class="text-stone-600 text-lg">
+                                    TA’s and presenters can be moved to the
+                                    front of the class.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-8">
+                                <div
+                                    class="size-[60px] rounded-full shadow-lg flex justify-center items-center"
+                                >
+                                    <img src="assets/benefits_lg3.svg" alt="" />
+                                </div>
+                                <p class="text-stone-600 text-lg">
+                                    Teachers can easily see all students and
+                                    class data at one time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex basis-1/2 bg-olegptg rounded-2xl items-center justify-center"
+                    >
+                        <img
+                            src="assets/visit_card.png"
+                            alt=""
+                            class="size-4/5"
+                        />
+                    </div>
+                </section>
+                <section class="my-28 flex justify-between items-end gap-9">
+                    <img
+                        src="assets/pana.png"
+                        alt=""
+                        class="size-4/5 basis-1/2"
+                    />
+                    <div class="flex flex-col basis-1/2">
+                        <h2
+                            class="text-lg w-28 text-sky-900 font-medium py-2 px-6 bg-sky-200 rounded-xl opacity-70"
+                        >
+                            Training
+                        </h2>
+                        <h1
+                            class="font-bold text-5xl text-orange-600 mt-6 mb-12"
+                        >
+                            Get Student ID card
+                        </h1>
+                        <div class="flex flex-col gap-11">
+                            <div class="flex items-center gap-8">
+                                <div
+                                    class="size-[60px] rounded-full shadow-lg flex justify-center items-center"
+                                >
+                                    <img src="assets/benefits_lg1.svg" alt="" />
+                                </div>
+                                <p class="text-stone-600 text-lg">
+                                    Teachers don’t get lost in the grid view and
+                                    have a dedicated Podium space.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-8">
+                                <div
+                                    class="size-[60px] rounded-full shadow-lg flex justify-center items-center"
+                                >
+                                    <img src="assets/benefits_lg2.svg" alt="" />
+                                </div>
+                                <p class="text-stone-600 text-lg">
+                                    TA’s and presenters can be moved to the
+                                    front of the class.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-8">
+                                <div
+                                    class="size-[60px] rounded-full shadow-lg flex justify-center items-center"
+                                >
+                                    <img src="assets/benefits_lg3.svg" alt="" />
+                                </div>
+                                <p class="text-stone-600 text-lg">
+                                    Teachers can easily see all students and
+                                    class data at one time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="px-7 flex">
+                    <div class="bg-red-600 w-full rounded-xl relative">
+                        <div class="flex relative z-20">
+                            <div class="basis-1/2 flex flex-col gap-8 pl-14">
+                                <h1 class="text-5xl text-white font-bold pt-12">
+                                    Why You should buy<br />
+                                    gift cards ?
+                                </h1>
+                                <div class="flex flex-col gap-3">
+                                    <div class="flex gap-2 items-center">
+                                        <img src="assets/star_red.svg" alt="" />
+                                        <p class="text-sm text-white">
+                                            Teachers don’t get lost in the grid
+                                            view and have a dedicated Podium
+                                            space.
+                                        </p>
+                                    </div>
+                                    <div class="flex gap-2 items-center">
+                                        <img src="assets/star_red.svg" alt="" />
+                                        <p class="text-sm text-white">
+                                            Teachers don’t get lost in the grid
+                                            view and have a dedicated Podium
+                                            space.
+                                        </p>
+                                    </div>
+                                    <div class="flex gap-2 items-center">
+                                        <img src="assets/star_red.svg" alt="" />
+                                        <p class="text-sm text-white">
+                                            Teachers don’t get lost in the grid
+                                            view and have a dedicated Podium
+                                            space.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex pb-8">
+                                    <button
+                                        class="uppercase bg-white text-emerald-800 px-7 py-3 rounded-lg"
+                                    >
+                                        buy now
+                                    </button>
+                                </div>
+                            </div>
+                            <img
+                                src="assets/women_red.png"
+                                alt=""
+                                class="-mr-6"
+                            />
+                        </div>
+                        <img
+                            src="assets/line_red.png"
+                            alt=""
+                            class="absolute bottom-0 left-20 z-10"
+                        />
+                    </div>
+                </section>
+                <div class="max-w-[820px] mx-auto">
+                    <section
+                        class="flex flex-col items-center mt-24 mb-20 gap-10"
+                    >
+                        <h1
+                            class="relative text-5xl text-emerald-800 font-bold"
+                        >
+                            Exclusive Bundles
+                            <img
+                                src="assets/line-category.svg"
+                                alt=""
+                                class="absolute -right-16 -bottom-6"
+                            />
+                        </h1>
+                        <p class="text-lg text-stone-400 text-center">
+                            Onlearing is one powerful online software suite that
+                            combines all the tools<br />
+                            needed to run a successful school or office.
+                        </p>
+                    </section>
+                    <section class="rounded-3xl w-full flex shadow-xl relative">
+                        <div class="basis-[356px] justify-center relative">
+                            <img
+                                src="assets/phyton.png"
+                                alt=""
+                                class="rounded-l-3xl"
+                            />
+                            <div
+                                class="absolute bg-white rounded-full p-2 bottom-4 right-4 flex gap-2 items-center"
+                            >
+                                <p class="text-xl font-bold text-orange-400">
+                                    $ 380
+                                </p>
+                                <p class="line-through text-sm text-stone-400">
+                                    $ 500
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex ml-9 gap-4 flex-col basis-72">
+                            <p class="text-sm text-stone-500">
+                                1 - 28 July 2022
+                            </p>
+                            <h3 class="text-lg font-bold text-emerald-800">
+                                Product Management Basic - Course
+                            </h3>
+                            <p class="text-xs leading-relaxed">
+                                Product Management Masterclass, you will learn
+                                with Sarah Johnson - Head of Product Customer
+                                Platform Gojek Indonesia.
+                            </p>
+                            <section
+                                class="flex bg-stone-100 basis-2/3 justify-center rounded-full items-center px-2 py-1"
+                            >
+                                <div class="flex items-center -space-x-3">
+                                    <div
+                                        class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                    ></div>
+                                    <div
+                                        class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                    ></div>
+                                    <div
+                                        class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                    ></div>
+                                    <div
+                                        class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                    ></div>
+                                    <div
+                                        class="size-7 rounded-full border-emerald-100 border-2 bg-emerald-900"
+                                    ></div>
+                                </div>
+                                <p>+ 40 students</p>
+                            </section>
+                        </div>
+                    </section>
+                    <div class="flex justify-center gap-2">
+                        <div
+                            class="border-7 rounded-full h-1 w-16 bg-black mt-7"
+                        ></div>
+                        <div
+                            class="border-7 rounded-full h-1 w-5 bg-black opacity-50 mt-7"
+                        ></div>
+                        <div
+                            class="border-7 rounded-full h-1 w-2 bg-black opacity-20 mt-7"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-olegptg relative overflow-clip">
+            <div class="max-w-[1240px] mx-auto flex justify-between">
+                <div class="flex flex-col mt-28 mb-16 gap-4 w-72 text-romabut">
+                    <img src="assets/footer_logo.svg" alt="" class="w-48" />
+                    <div class="mt-3 flex flex-col">
+                        <div class="flex gap-2 items-center">
+                            <img src="assets/Location.svg" alt="" />
+                            <span class="font-bold text-sm">Address:</span>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <img src="assets/Calling.svg" alt="" />
+                        <span class="text-sm">Tel :+9229341037</span>
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <img src="assets/Time Circle.svg" alt="" />
+                        <span class="text-sm">Response hours: 8 to 20</span>
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <img src="assets/Message.svg" alt="" />
+                        <span class="text-sm">Email: info@onlearn.com</span>
+                    </div>
+                </div>
+                <div class="flex gap-14 mt-36">
+                    <div class="flex flex-col gap-5 text-sm">
+                        <h4 class="mt-1 font-bold text-black text-base">
+                            Categories
+                        </h4>
+                        <span class="text-romabut"> Counseling</span>
+                        <span class="text-romabut"> Health and fitness</span>
+                        <span class="text-romabut">
+                            Individual development</span
+                        >
+                        <span class="text-romabut"> more</span>
+                    </div>
+                    <div class="flex flex-col gap-5 text-sm">
+                        <h4 class="mt-1 font-bold text-black text-base">
+                            Links
+                        </h4>
+                        <span class="text-romabut"> About us</span>
+                        <span class="text-romabut"> blog</span>
+                    </div>
+                    <div class="flex flex-col gap-5 mt-4">
+                        <p class="font-normal text-center">
+                            Stay up to date with the latest courses
+                        </p>
+                        <div
+                            class="bg-white rounded-2xl flex items-center justify-between p-2"
+                        >
+                            <input
+                                type="email"
+                                placeholder="Email"
+                                class="placeholder:text-stone-500 placeholder:font-normal ml-4"
+                            />
+                            <button
+                                class="bg-emerald-800 text-white py-3 px-8 rounded-lg"
+                            >
+                                Send
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

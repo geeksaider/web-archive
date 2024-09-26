@@ -1,0 +1,55 @@
+body{
+    font-family: "Roboto Slab", serif;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+
+h1, h4{
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header{
+    text-align: center;
+}
+
+form{
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+  
+
+}
+
+input, select, a{
+    margin-left: 20px;
+}
+
+fieldset{
+    margin-bottom: 20px;
+    border: 4px rgba(161, 92, 8, 0.605) solid;
+    border-radius: 20px;
+}
+textarea{
+    margin-top:10px;
+}
+
+.btn{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background: none;
+    font-size: small;
+    width: 100px;
+    border: 3px rgba(161, 92, 8, 0.605) solid ;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.btn:hover{
+ transform: scale(1.2);
+}
+

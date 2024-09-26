@@ -1,0 +1,413 @@
+* {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+body {
+    margin:0;
+}
+
+.header-background {
+    background-color: #F7FAFD ;
+}
+
+.wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.wrapper-img {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.sales-department {
+    display: flex;
+    align-items: center;
+}
+
+.logo-svg {
+    margin-right: 20px;
+}
+
+.pages-list{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.pages-list:hover {
+    color: #207FF1;
+    font-size: 18px;
+}
+
+.call-delivery {
+    display: flex;
+}
+
+.call-delivery >  a {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.call-delivery >  a  >  img {
+    padding-right:15px;
+}
+
+.call-btn { 
+    padding: 10px;
+    border: 1px #207ef1fd solid;
+    border-radius: 15px;
+    color: #207ef1fd;
+    font-family: "Montserrat", sans-serif !important;
+    background-color: #FFFFFF;
+}
+
+.call-btn:hover {
+    border: 1px #FFFFFF solid;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: #207ef1fd;
+
+}
+
+.for-about-home {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.about-home {
+    margin-top: 80px;
+}
+
+.about-home > h1 {
+   font-size: 60px;
+}
+
+.about-home > p {
+    max-width: 450px;
+    line-height: 1.9;
+}
+
+.give-price-btn {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px #207FF1 solid;
+    border-radius: 15px;
+    background-color: #207FF1;
+    text-decoration: none;
+    font-size: 16px ;
+    color: white;
+}
+
+.give-price-btn:hover {
+    color: #207FF1;
+    background-color: #FFFFFF;
+}
+
+.hotel {
+    margin-top: 80px;
+    width: 100%;
+}   
+
+
+.for-about-company {
+    padding-top: 80px;
+    background-color:#F7FAFD;
+    padding-bottom: 80px;
+}
+
+.about-company {
+    display: flex;
+    flex-direction: column;   
+}
+
+.text-about {
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+.text-about > h1 {
+    margin-right: 100px;
+    font-size: 38px;
+}
+
+.text-about > p {
+    font-size: 18px;
+    max-width: 525px;
+    line-height: 1.9;
+}
+
+hr {
+    width:105px;
+    size: 3px;
+    color: #207FF1;
+}
+
+
+.about-in-box {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 70px;
+    list-style-type: none; 
+    display: flex;
+    
+}
+
+.list {
+    width: 100%;
+    padding: 20px;
+    border: 1px #ffffff00 solid;
+    border-radius: 30px ;
+    background-color: #FFFFFF;
+}
+
+.list > p {
+    font-size: 15px;
+}
+
+.list-header-box {
+    display:flex;
+    align-items: end;
+}
+
+.list:hover {
+    box-shadow: #e7e5e4;
+    transform: scale(1.02);
+    box-shadow: 4px 4px 23px 10px #767676b6;
+
+}
+
+.number {
+    color:#207FF1;
+    font-size: 45px;
+    margin: 0px 15px 0px 0px;
+}
+
+.text {
+    margin: 0px
+}
+
+.for-form-block {
+    position: relative;
+    background: url(assets/decor.png) no-repeat;
+    background-size: cover;
+    aspect-ratio: 1920 / 673;
+    /* свойство для установления расширения картитнки */
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.decor {
+    width:100%;
+}
+
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    color:#FFFFFF;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.form-text > h1 {
+    font-weight: 500;
+}
+
+.form-text > p {
+    color: #FFFFFFB2;
+    line-height: 25px;
+}
+
+fieldset {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    border: none;
+    margin-bottom: 10%;
+}
+
+.type-your-tel {
+   border: 1px #e7e5e4 solid;
+   background-color: #FFFFFF;
+   border-radius: 15px;
+   padding: 20px;
+   height: 10px;
+   outline: none;
+   margin-bottom: 5%;
+}
+
+.button-send-request {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #207FF1 solid;
+    background-color: #207FF1;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 25px;
+    height: 20px;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button-send-request:hover {
+    border: 1px #FFFFFF solid;
+    background-color: #FFFFFF;
+    color: #207FF1;
+}
+
+.for-credit-block {
+    background-color: #F1F6FC;
+}
+
+.credit-block {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.for-credit-box {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.credit-block > h1 {
+    margin-top: 0px;
+}
+
+.credit-box {
+    border:1px #FFFFFF solid;
+    border-radius: 30px;
+    background-color: #FFFFFF ;
+    padding: 30px;
+}
+
+.first-stroke, .last-stroke {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.credit-box > h2 {
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+.credit-box > p {
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #767676;
+}
+
+.credit-box:hover {
+    box-shadow: #e7e5e4;
+    transform: scale(1.02);
+    box-shadow: 4px 4px 23px 10px #767676b6;
+
+    > h2 {
+        color: #207FF1;
+    }
+}
+
+.box-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.data {
+    font-size: 15px;
+    color: #767676;
+    margin-bottom: 0px;
+}
+
+.credit-btn {
+    border: 1px #F1F6FC solid;
+    border-radius: 25px;
+    width: 30%;
+    height: 2em;
+    color:#207FF1;
+    background-color: #F1F6FC  ;
+}
+
+.credit-btn:hover{
+    color:#F1F6FC;
+    background-color: #207FF1  ;
+    border: 1px #207FF1 solid;
+    box-shadow: 4px 4px 23px 10px #767676c9;
+}
+
+.page-end {
+    margin-top: 80px;
+    display: flex;
+    gap: 20%;   
+    margin-bottom: 100px;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-footer {
+    width: 75%;
+}
+
+.call-footer-btn {
+    margin: 0 auto;
+    background-color: #207FF1 ;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px #207FF1 solid;
+    padding: 15px;
+    width: 80%;
+}
+
+.call-footer-btn:hover {
+    border: 1px #207FF1 solid;
+    border-radius: 15px;
+    color: #207FF1;
+    background-color: #FFFFFF;
+}
+
+iframe{
+    width: 100%; 
+    height: 100%;
+    border:1px #ffffff00 solid;
+    border-radius: 25px;
+}
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Формы</title>
+    <link href="forms_style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Анкета посетителя ресторана. Бондарев Никита</h1>
+        <hr>
+        
+    </header>
+    <div>
+    <form action="mailto:geeksaider@gmail.com" method="post">
+            <fieldset class="contacts">
+                <legend>Контактная информация</legend>
+                <label for="name">Имя</label><input type="text" name="name" id="name"><br>
+                <label for="smartphone">Телефон</label><input type="text" id="smartphone"><br>
+                <label for="email">Email</label><input type="email" id="email"><br> 
+                <label for="data_meet">Дата посещения</label><input type="date" id="data_meet"><br>
+            </fieldset>
+            
+            <fieldset class="personal_info">
+                <legend> Персональная информация</legend>
+                <label for="age">Возраст</label><input type="number" min="18" max="100" step="1" id="age"><br>
+                <label for="better" >Любимая кухня</label>
+                    <select id="better">
+                        <option>Русская</option>
+                        <option>Не Русская</option>
+                    </select>
+                <br>
+                <label for="kitchen">Какие блюда ВЫ бы хотели увидеть в меню?</label><br>
+                    <textarea id="kitchen" rows="2" cols="50" placeholder="Писать сюда!"></textarea>
+               <br>
+            </fieldset>
+    
+            <fieldset class="rating">
+                <legend>Оценка нашего заведения</legend>
+                <label for="why_me"><h4>Почему ВЫ выбрали наше заведение?</h4></label>
+                <input type="radio" name="why" id="why_me"> Недалеко от дома/работы <br>
+                <input type="radio" name="why"> Увидел рекламу <br>
+                <input type="radio" name="why"> Посоветовали <br>
+                <input type="radio" name="why"> Оптимальное соотношение цены и качества <br>
+
+                <label for="answer"><h4>ВЫ будете рекомендавать наше заведение своим знакомым?</h4></label>
+                <input type="radio" name="yes_or_no" id="answer"> Да <br>
+                <input type="radio" name="yes_or_no"> Нет <br>
+
+            </fieldset>
+            <div>
+                <input class="btn" type="submit" value="Отправить">
+                <input class="btn" type="reset" value="Очистить">
+                <a class="btn" href="../index.html">Назад</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
